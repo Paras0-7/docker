@@ -1,0 +1,33 @@
+export const explorerData = {
+    name:"root",
+    id:1,
+    isFolder:true,
+    children:[
+        {
+            id:2,
+            name:'public',
+            isFolder:true,
+            children:[
+                {
+                    id:3,
+                    name:'index.html',
+                    isFolder:false,
+                    children:[]
+                }
+            ]
+        },
+        {
+            id:4,
+            name:"src",
+            isFolder:true,
+            children:[
+                {
+                    id:5,
+                    name:'package.json',
+                    isFolder:false,
+                    children:[]
+                }
+            ]
+        }
+    ]
+}
